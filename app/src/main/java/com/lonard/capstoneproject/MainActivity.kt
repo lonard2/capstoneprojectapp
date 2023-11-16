@@ -24,6 +24,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     Greeting("Android")
                     Greeting("Hello world! This is a sample project.")
+                    Greeting("We commit to my Git repository ehe")
                 }
             }
         }
