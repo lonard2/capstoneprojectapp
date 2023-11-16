@@ -25,6 +25,7 @@ class MainActivity : ComponentActivity() {
                     Greeting("Android")
                     Greeting("Hello world!")
                     Greeting("Hello world ! This is an app for capstone!")
+                    Greeting("Hello Kak")
                 }
             }
         }
