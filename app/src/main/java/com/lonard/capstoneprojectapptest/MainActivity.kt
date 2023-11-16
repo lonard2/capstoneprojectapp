@@ -47,5 +47,5 @@ fun GreetingPreview() {
     }
 }
 
-//Halo saya Farhan
+//Halo saya Lonard
 //Tes
