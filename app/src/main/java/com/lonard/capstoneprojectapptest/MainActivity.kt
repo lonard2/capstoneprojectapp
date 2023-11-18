@@ -31,6 +31,8 @@ class MainActivity : ComponentActivity() {
                     TitleName("My Capstone Project")
                     SubTitleName("doing everything better ehe.")
 
+                    Greeting("Dimas")
+
                     TitleName("Here is my work, guys!")
                     SubTitleName("getting myself graduate.")
                 }
