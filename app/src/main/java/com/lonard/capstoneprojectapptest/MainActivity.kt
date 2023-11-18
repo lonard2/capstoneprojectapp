@@ -26,6 +26,10 @@ class MainActivity : ComponentActivity() {
                     Greeting("Hello world!")
                     Greeting("Hello world ! This is an app for capstone!")
                     Greeting("Hello Kak")
+                    Greeting("Hello Kak!!!")
+
+                    TitleName("My Capstone Project")
+                    SubTitleName("doing everything better ehe.")
                 }
             }
         }
@@ -40,6 +44,22 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
+@Composable
+fun TitleName(appTitle: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Welcome to $appTitle.",
+        modifier = modifier
+    )
+}
+
+@Composable
+fun SubTitleName(thing: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "An Android app for $thing",
+        modifier = modifier
+    )
+}
+
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
@@ -48,5 +68,6 @@ fun GreetingPreview() {
     }
 }
 
+
 //Halo saya Lonard
-//Tes
+//Tes222
